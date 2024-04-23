@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.btn {
+    width: 140px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px;
+    transition: 0.3s;
+}
+.btn:hover {
+    box-shadow: 2px 2px 2px;
+    transform: translateY(5px);
+}
+.btn-submit {
+    background: rgb(0, 128, 49);
+}
+.btn > span {
+    color: #fff;
+}
